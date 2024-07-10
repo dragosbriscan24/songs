@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import SongsList from "@/components/Songs/SongsList.vue";
+import ArtistsList from "@/components/Songs/ArtistsList.vue";
 </script>
 
 <template>
   <main>
-    <SongsList />
+    <ArtistsList />
 
     <RouterLink
       :to="{
