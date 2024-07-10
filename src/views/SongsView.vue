@@ -1,17 +1,17 @@
 <script setup lang="ts">
-import HelloWorld from "@/components/Home/HelloWorld.vue";
+import SongsList from "@/components/Songs/SongsList.vue";
 </script>
 
 <template>
   <main>
-    <HelloWorld />
+    <SongsList />
 
     <RouterLink
       :to="{
-        name: 'songs',
+        name: 'home',
       }"
     >
-      <button>Go to Songs</button>
+      <button>Go to Home</button>
     </RouterLink>
   </main>
 </template>
